@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Om Jonatan Larsson">
+    <meta name="author" content="Jonatan Larsson">
+
+    <title>Jonatan Larsson</title>
+
+    <link rel="stylesheet" href="//twitter.github.com/bootstrap/assets/css/bootstrap.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: #444;
+      }
+      body {
+        font-family: -apple-system, 
+               BlinkMacSystemFont, 
+               "Segoe UI", 
+               Roboto, 
+               Oxygen,
+               Ubuntu,
+               Cantarell,
+               "Open Sans",
+               "Helvetica Neue", 
+               sans-serif;
+      }
+      a {
+
+      }
+      .homepage-hero-module {
+          border-right: none;
+          border-left: none;
+          position: relative;
+      }
+      .no-video .video-container video,
+      .touch .video-container video {
+          display: none;
+      }
+      .no-video .video-container .poster,
+      .touch .video-container .poster {
+          display: block !important;
+      }
+      .video-container {
+          position: relative;
+          bottom: 0%;
+          left: 0%;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          background: #000;
+      }
+      .video-container .poster img {
+          width: 100%;
+          bottom: 0;
+          position: absolute;
+      }
+      .video-container .filter {
+          z-index: 100;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.4);
+          width: 100%;
+      }
+      .video-container video {
+          position: absolute;
+          z-index: 0;
+          bottom: 0;
+      }
+      .video-container video.fillWidth {
+          width: 100%;
+      }
+      .content {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+      }
+      .content-inner {
+        width: 50%;
+        text-align: right;
+        margin: 0 auto;
+        margin-top: 20%;
+      }
+      ul {
+        float: right;
+        text-align: left;
+        margin: 1em 0;
+      }
+      svg {
+        display: none;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="homepage-hero-module">
+      <div class="video-container">
+          <div class="filter"></div>
+          <video autoplay loop class="fillWidth">
+              <source src="/media.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="/media.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+          <div class="poster hidden">
+              <img src="media.jpg" alt="">
+          </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-inner">
+        <h1>Jonatan Larsson</h1>
+        <p>Entrepenör och medgrundare till Kundo.</p>
+
+        <ul>
+         
+
+          <li>
+            <a href="https://www.linkedin.com/in/jonatanlarsson">
+              <svg>
+                <g id="icomoon-ignore">
+                </g>
+                <path fill="#000" d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z"></path>
+                <path fill="#000" d="M32 192h96v288h-96v-288z"></path>
+                <path fill="#000" d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z"></path>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+           <li>
+            <a href="instagram.com/lillbra">
+              <svg>
+                <g id="icomoon-ignore">
+                </g>
+                <path fill="#000" d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z"></path>
+                <path fill="#000" d="M32 192h96v288h-96v-288z"></path>
+                <path fill="#000" d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z"></path>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <svg>
+              <path fill="#000" d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z"></path>
+              <path fill="#000" d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z"></path>
+              <path fill="#000" d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z"></path>
+            </svg>
+            <a href="https://twitter.com/lillbra">
+              <span>Twitter</span>
+            </a>
+          </li>
+           <li>
+            <a href="https://www.facebook.com/jonatanlarsson">
+              <svg>
+              <path fill="#000" d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z"></path>
+              </svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+      crossorigin="anonymous"></script>
+    <script>
+     //jQuery is required to run this code
+        $( document ).ready(function() {
+
+            scaleVideoContainer();
+
+            initBannerVideoSize('.video-container .poster img');
+            initBannerVideoSize('.video-container .filter');
+            initBannerVideoSize('.video-container video');
+
+            $(window).on('resize', function() {
+                scaleVideoContainer();
+                scaleBannerVideoSize('.video-container .poster img');
+                scaleBannerVideoSize('.video-container .filter');
+                scaleBannerVideoSize('.video-container video');
+            });
+
+        });
+
+        function scaleVideoContainer() {
+
+            var height = $(window).height() + 5;
+            var unitHeight = parseInt(height) + 'px';
+            $('.homepage-hero-module').css('height',unitHeight);
+
+        }
+
+        function initBannerVideoSize(element){
+
+            $(element).each(function(){
+                $(this).data('height', $(this).height());
+                $(this).data('width', $(this).width());
+            });
+
+            scaleBannerVideoSize(element);
+
+        }
+
+        function scaleBannerVideoSize(element){
+
+            var windowWidth = $(window).width(),
+            windowHeight = $(window).height() + 5,
+            videoWidth,
+            videoHeight;
+
+            console.log(windowHeight);
+
+            $(element).each(function(){
+                var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+                $(this).width(windowWidth);
+
+                if(windowWidth < 1000){
+                    videoHeight = windowHeight;
+                    videoWidth = videoHeight / videoAspectRatio;
+                    $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+                    $(this).width(videoWidth).height(videoHeight);
+                }
+
+                $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+            });
+        }
+    </script>
+  </body>
+</html>
